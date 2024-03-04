@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html, body , #main{
+    height: 100%;
+    width: 100%;
+    background-color: #F6F3F0;
+}
+
+#intro{
+    height: 40%;
+    width: 100%;
+    padding: 50px;
+    background-color: rgba(190, 117, 27, 0.103);
+}
+
+#intro h1{
+    font-size: 140px;
+    line-height: 120px;
+}
+
+#place{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#place h3{
+    font-size: 17px;
+}
+
