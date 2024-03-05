@@ -12,25 +12,83 @@ html, body , #main{
     background-color: #F6F3F0;
 }
 
+#nav{
+    /*line 17 and 18 fix the navabar*/
+    position: fixed;
+    width: 100%;
+   padding: 3px 15px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+#nav h3{
+    margin-left: 4px;
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 12px 15px;
+
+}
 #intro{
-    height: 40%;
+    height: 45%;
     width: 100%;
     padding: 50px;
-    background-color: rgba(190, 117, 27, 0.103);
 }
 
 #intro h1{
-    font-size: 140px;
-    line-height: 120px;
+    font-size: 62px;
+    line-height: 63px;
+    letter-spacing: -3px;
 }
 
 #place{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 40px;
 }
 
 #place h3{
     font-size: 17px;
 }
+#hero-img{
+    width: 100%;
+    height: 87%;
+    background-image: url("https://images.unsplash.com/photo-1708772412816-192fd83fcb18?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNTN8fHxlbnwwfHx8fHw%3D");
+    background-size: cover; 
+}
 
+#about
+{
+    padding-top: 34px;
+    display: flex;
+}
+#about h2{
+    letter-spacing: -3px;
+    width: 65%;
+    height: 30%;
+    font-size: 60px;
+    border-right: 3px solid;
+}
+
+#about-socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 20px;
+}
+#about-socials h3{
+    font-size: 28px;
+}
+ #links a{
+    border-radius: 112px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 7px;
+    margin-left: 12px;
+    font-size: 26px;
+ }
