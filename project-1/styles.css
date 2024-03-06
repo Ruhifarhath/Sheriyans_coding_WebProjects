@@ -73,7 +73,7 @@ html, body{
 #main>h1{
     
     position: absolute;
-    font-size: 150px;
+    font-size: 140px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -122,7 +122,9 @@ img{
     position: absolute;
     left: 47%;
     bottom: 4.5%;
-    font-size: 100px;
+    font-size: 70px;
+    border-radius: 60px;
+    background-color: #fff;
     
    
 }
