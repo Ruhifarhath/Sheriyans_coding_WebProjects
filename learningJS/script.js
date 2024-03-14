@@ -3,7 +3,7 @@ function array_methods()
 {
     var a=[2,3,4,5,6];  // reference type 
     // a ke paas he khud ka 2,3,4,5,6 aur b ke paas he a ka 2,3,4,5,6
-    b=a;
+    var b=a;
     b.pop(); //pop removes el from end
     
     // push -> adding an el at end of array
@@ -18,6 +18,10 @@ function array_methods()
     a.splice(2,1) //splice(index, no.of vals to be del)  // [2, 3, 5, 9]
     
 }
+
+var a=[1,2,4,56,46];
+var b= [...a]; // use of spread operator '...' to copy the reference variables
+b.pop() //[1, 2, 4, 56]   and a is [1, 2, 4, 56, 46] 
 function learning_objects(){
      // blank obj
      var student_a={
